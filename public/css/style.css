@@ -1,0 +1,72 @@
+.bg-azul {
+    background-color: #00C5E5;
+  }
+  
+  .btn {
+    font-weight: 500;
+    letter-spacing: 0.5;
+    transition: 0.7s all;
+  }
+  .btn.btn-base {
+    padding: 0.7rem 2rem;
+  }
+  .btn.btn-white {
+    background-color: #fff;
+    color: #000000;
+  }
+  .btn.btn-blue {
+    background-color: #00C5E5;
+    color: #fff;
+    border-color: #00C5E5;
+  }
+  .btn.btn-outline {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-width: 2px;
+  }
+  .btn:hover {
+    transform: scale(1.03);
+  }
+  
+  nav {
+    box-shadow: 7px 9px 99px rgba(0, 0, 0, 0.17);
+  }
+  nav a img {
+    max-width: 70px;
+  }
+  nav ul {
+    margin-right: 1rem;
+  }
+  nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 0.8rem;
+    transition: 0.5s all;
+  }
+  nav ul li a:hover {
+    color: #fff;
+    transform: scale(1.12);
+  }
+  
+  main section.s1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+  }
+  main section.s1 .container .title {
+    font-size: 3rem;
+    margin: 0;
+  }
+  main section.s1 .container .title span {
+    display: block;
+    color: #000000;
+    font-size: 1.5rem;
+  }
+  main section.s1 .container .subtitle {
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.7;
+  }
