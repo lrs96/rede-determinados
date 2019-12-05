@@ -9,9 +9,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
-    res.render("index.ejs")
-});
+const routers = require('./routes/routes')
 
 const PORT = 3030;
 
