@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const routers = require('./routes/routes');
+
 
 app.use(bodyParser.urlencoded({
     extended: true,
@@ -8,10 +10,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
-
-const routers = require('./routes/routes')
-
-const PORT = 3030;
+app.use('/', routers)
 
 app.listen(process.env.PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
