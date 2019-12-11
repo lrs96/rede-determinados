@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
     res.render("index.ejs")
 });
 
-app.use('/api', router)
+app.use('/', router)
 
 
 
