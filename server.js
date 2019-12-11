@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.PORT = 3030;
+// const PORT = process.env.PORT = 3030;
 
 let router = express.Router()
 
@@ -21,7 +21,7 @@ app.use('/api', router)
 
 
 
-app.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
+app.listen(process.env.PORT, () => {
+    console.log(`Servidor rodando na porta ${process.env.PORT}`);
     console.log(`Aperte CTRL + C para derrubar o servidor`)
 })
