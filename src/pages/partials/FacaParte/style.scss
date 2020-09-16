@@ -1,0 +1,62 @@
+#faca_parte_determinados{ 
+    .row {
+        padding: 5rem 0;
+        flex-wrap: nowrap;
+        h2 {
+            color: #00C5E5;
+            font-size: 3rem;
+            font-weight: 700;
+            span {
+                font-size:1.5rem ;
+                font-weight: 600;
+                color: #000000;
+                &:last-child {
+                    font-size: 3rem;
+                }
+            }
+        }
+        .item_person {
+            flex-grow: 1;
+            text-align: center;
+            transition: .5s all ease-out;
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+            max-width: 370px;
+            width: 100%;
+            &:not(:last-child) {
+                border-right: 1px solid #ddd;
+            }
+            &:hover {
+                background-color:#E2F8FC;
+            }
+
+            h3 {
+                color: #00C5E5;
+                font-size: 1.4rem;
+                font-weight: 700;
+                line-height: .7rem;
+                padding-top: 1rem;
+                span {
+                    font-size:.8rem ;
+                    font-weight: 600;
+                    color: #000000;
+                    &:last-child {
+                        font-size: 3rem;
+                    }
+                }
+            }
+            a#cadastre-se,
+            a[data-type] {
+                background-color: #fff;
+                color: #000;
+                font-weight: 500;
+                letter-spacing: .5px;
+                box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.12);
+                padding: .5rem 2rem;
+                font-size: .8rem;
+            }
+        }   
+    }
+}

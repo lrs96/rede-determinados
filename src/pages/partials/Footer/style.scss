@@ -1,0 +1,32 @@
+.footer {
+    $self: &;
+    background-color: #00C5E5;
+    padding: 4rem 0;
+    #{$self}__block {
+        flex-grow: 1;
+        padding: 0 1rem;
+    }
+
+    #{$self}__list {
+        list-style: none;
+        padding: 0;
+    }
+
+    #{$self}__link {
+        opacity: .8;
+        color: #fff;
+        padding-bottom: .7rem;
+        display: block;
+        transition: .3s all ease-out;
+        &:hover {
+            text-decoration: none;
+            opacity: 1;
+        }
+    }
+
+    #{$self}__title {
+        color: #fff;
+        margin-bottom: 0;
+        padding-bottom: 1.5rem;
+    }
+}
