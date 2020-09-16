@@ -30,13 +30,16 @@ const Footer = () => {
                         <h4 className="footer__title">Seja um parceiro</h4>
                         <ul className="footer__list">
                             <li className="footer__item">
-                                <a href="" className="footer__link">Sobre nós</a>
+                                <a href="" className="footer__link">Junte-se a nós</a>
                             </li>
                             <li className="footer__item">
-                                <a href="" className="footer__link">Missão</a>
+                                <a href="" className="footer__link">Aprimore suas habilidades</a>
                             </li>
                             <li className="footer__item">
-                                <a href="" className="footer__link">Entre em contato</a>
+                                <a href="" className="footer__link">Se torne um mentor</a>
+                            </li>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Seja um investidor</a>
                             </li>
                         </ul>
                     </div>
