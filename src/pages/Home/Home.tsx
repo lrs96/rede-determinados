@@ -5,6 +5,7 @@ import Intro from '../partials/Intro/Intro'
 import Proposito from '../partials/Proposito/Proposito'
 import CtaJunteANos from '../partials/Cta/CtaJunteSeANos';
 import FacaParte from '../partials/FacaParte/FacaParte';
+import CtaCadastrese from '../partials/Cta/CtaCadastrese';
 import Footer from '../partials/Footer/Footer';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Proposito />
             <CtaJunteANos />
             <FacaParte />
+            <CtaCadastrese />
             <Footer />
         </main>
     )
